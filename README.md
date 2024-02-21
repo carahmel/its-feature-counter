@@ -11,7 +11,7 @@ Once the image is built, JupyterLab will open with the ITS-feature-counter noteb
 
 This notebook is fully editable within the browser. As such, the path to ich-tanke-strom.ch's JSON file can be updated if necessary.
 
-Results will be written to *results.txt* in the main directory. Multiple runs of the script will append new results to *results.txt*.
+Results will printed directly in the notebook but will also be written to *results.txt* in the main directory.
 
 
 Example output:
