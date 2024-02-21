@@ -1,0 +1,2 @@
+{'Available': 38, 'Occupied': 5, 'OutOfService': 0, 'Unknown': 1, 'TOTAL': 44, 'generatedOn': 'Wed Feb 21 09:37:31 2024'}
+{'Available': 38, 'Occupied': 5, 'OutOfService': 0, 'Unknown': 1, 'TOTAL': 44, 'generatedOn': 'Wed Feb 21 09:39:15 2024'}
