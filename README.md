@@ -1,33 +1,17 @@
-## Set up
+## ITS feature counter
 
-In the ITSFeatureCounter directory:
+This Binder repository allows the ITSFeatureCounter script to be executed directly from a browser.
 
-1. Create virtual environment, _featureCounter-env_:
-```
-python -m venv featureCounter-env
-```
-
-2. Activate virtual environment, _featureCounter-env_:
-```
-source featureCounter-env/bin/activate      (Linux/MacOS)
-featureCounter-env\Scripts\activate.bat     (Windows cmd.exe)
-featureCounter-env\Scripts\Activate.ps1     (Windows PowerShell)
-```
-
-3. Install required packages using  _requirements.txt_:
-```
-pip install -r resources/requirements.txt
-```
 
 ## Usage
 
-Within the _featureCounter-env_ environment, the script can be launched by executing
-```
-python ITSFeatureCounter.py -b <url-to-json>
-```
-where <url-to-json> is typically https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/data/ch.bfe.ladestellen-elektromobilitaet_fr.json
+Run https://mybinder.org/v2/gh/carahmel/its-feature-counter/HEAD?labpath=ITS-feature-counter.ipynb in your browser and wait for the Binder to finish building the image.
 
-Results will be written to *bornes_recharge_LS.txt* in the ITSFeatureCounter directory. 
+Once the image is built, the ITS-feature-counter notebook will appear in your browser and can be run.
+
+The jupyter notebook is fully editable within the browser. As such, the path to ich-tanke-strom.ch's JSON file can be updated if necessary.
+
+Results will be written to *results.txt* in the main directory. 
 
 Example output:
 ```
